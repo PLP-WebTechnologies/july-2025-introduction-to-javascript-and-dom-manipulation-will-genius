@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚀 Interactive JavaScript Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 Interactive JavaScript Demo</h1>
+
+  <!-- Part 1: Ask for Name & Age -->
+  <div id="userForm">
+    <label>Enter your name: </label>
+    <input type="text" id="userNameInput" placeholder="Your name">
+    <br><br>
+    <label>Enter your age: </label>
+    <input type="number" id="userAgeInput" placeholder="Your age">
+    <br><br>
+    <button id="submitUserBtn">Submit</button>
+  </div>
+
+  <p id="welcomeMessage"></p>
+
+  <!-- Part 2 & 3: Shopping List -->
+  <div id="shopSection" style="display:none;">
+    <h2>🛒 Select Items</h2>
+    <ul id="itemList">
+      <li><input type="checkbox" value="Milk" data-price="10"> Milk - $10</li>
+      <li><input type="checkbox" value="Bread" data-price="15"> Bread - $15</li>
+      <li><input type="checkbox" value="Eggs" data-price="12"> Eggs - $12</li>
+      <li><input type="checkbox" value="Cheese" data-price="20"> Cheese - $20</li>
+      <li><input type="checkbox" value="Apples" data-price="8"> Apples - $8</li>
+    </ul>
+    <button id="calculateBtn">Calculate Total</button>
+    <p id="totalResult"></p>
+  </div>
+
+  <!-- Part 4: DOM Interactions -->
+  <h2>✨ DOM Interaction Demo</h2>
+  <button id="changeTextBtn">Change Welcome Message</button>
+  <button id="toggleColorBtn">Toggle Background Color</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
